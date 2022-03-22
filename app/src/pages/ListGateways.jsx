@@ -61,7 +61,7 @@ function Gateways() {
     {
       field: "serialNumber",
       headerName: "Serial Number",
-      minWidth: 400,
+      minWidth: 350,
     },
     {
       field: "name",
@@ -127,6 +127,7 @@ function Gateways() {
           rows={rows}
           loading={loading}
           pageSize={10}
+          rowsPerPageOptions={[10]}
         />
       </Box>
 
